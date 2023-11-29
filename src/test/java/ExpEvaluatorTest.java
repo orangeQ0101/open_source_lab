@@ -1,11 +1,11 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class L2021110221_10_Test {
+public class ExpEvaluatorTest {
 
     @Test
     public void testFractionAddition() {
-        Solution10 solution = new Solution10();
+        ExpEvaluator solution = new ExpEvaluator();
 
         // 测试样例 1: "-1/2+1/2"
         String expression1 = "-1/2+1/2";
