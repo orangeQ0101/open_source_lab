@@ -15,8 +15,8 @@ public class ExpEvaluatorTest {
 
         // 测试样例 2: "-1/2+1/2+1/3"
         String expression2 = "-1/2+1/2+1/3";
-        String expected2 = "1/6";
-        // 把1/3改为1/6
+        String expected2 = "1/3";
+        // 把1/3改为1/6，到步骤2后重新改为1/3
         String result2 = solution.fractionAddition(expression2);
         Assert.assertEquals(expected2, result2);
 
