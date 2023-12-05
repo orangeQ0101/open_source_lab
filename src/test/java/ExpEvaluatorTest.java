@@ -25,5 +25,11 @@ public class ExpEvaluatorTest {
         String expected3 = "-1/6";
         String result3 = solution.fractionAddition(expression3);
         Assert.assertEquals(expected3, result3);
+
+//        新增测试样例 4: "1/2-1/3"
+        String expression4 = "1/2-1/3";
+        String expected4 = "1/6";
+        String result4 = solution.fractionAddition(expression4);
+        Assert.assertEquals(expected4, result4);
     }
 }
